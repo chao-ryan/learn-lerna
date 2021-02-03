@@ -2,12 +2,19 @@
   "packages": [
     "packages/*"
   ],
-  "version": "0.0.0",
+  "version": "1.0.0",
   "npmClient": "yarn",
   "command": {
     "publish": {
-      "ignoreChanges": ["**/node_modules/**", "**/dist/**", "ignored-file"]
+      "ignoreChanges": [
+        "**/node_modules/**",
+        "**/dist/**",
+        "ignored-file"
+      ]
     }
   },
-  "ignoreChanges": ["**/node_modules/**", "**/dist/**"]
+  "ignoreChanges": [
+    "**/node_modules/**",
+    "**/dist/**"
+  ]
 }
