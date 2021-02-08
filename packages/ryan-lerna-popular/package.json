@@ -1,6 +1,6 @@
 {
   "name": "ryan-lerna-popular",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
-    "ryan-lerna-core": "^2.0.2",
-    "ryan-lerna-common": "^2.0.2"
+    "ryan-lerna-common": "^2.0.3",
+    "ryan-lerna-core": "^2.0.3"
   }
 }
