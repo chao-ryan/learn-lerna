@@ -1,7 +1,24 @@
 {
   "name": "root",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": "12.16.1"
+  },
+  "scripts": {
+    "bootstrap": "npx lerna bootstrap",
+    "clean": "npx lerna clean",
+    "lint": "npx yarn *:lint",
+    "cspell": "npx cspell 'packages/**/*.ts' 'packages/**/*.js' ",
+    "web:management:dev": "npx lerna run dev --stream --scope=web-management"
+  },
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "lerna": "3.22.1",
+    "eslint": "7.12.1",
+    "eslint-config-prettier": "7.2.0",
+    "prettier": "2.1.2",
+    "typescript": "4.0.5"
   }
 }
