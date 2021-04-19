@@ -9,7 +9,7 @@ import WangEditor from 'wangeditor';
 })
 export class WangeditorComponent implements OnInit, AfterViewInit{
   editor: any;
-  title = 'web-management';
+  title = 'wangEditor';
   @ViewChildren('wangEditor') wangEditors: QueryList<ElementRef>;
 
   ngOnInit(): void {
